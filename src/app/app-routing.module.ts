@@ -4,7 +4,7 @@ import { UserComponentComponent } from './user-component/user-component.componen
 import { ProductComponentComponent } from './product-component/product-component.component';
 
 const routes: Routes = [
-  {path:'user/:id',component: UserComponentComponent},
+  {path:'user',component: UserComponentComponent},
   {path:'product', component:ProductComponentComponent}
 ];
 
